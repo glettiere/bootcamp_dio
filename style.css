@@ -1,0 +1,33 @@
+body{
+    background:darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+
+#title, .subtitle, .post_title{
+    color: rgb(227, 227, 230);
+}
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+}
+.post_title{
+    background: rgb(215, 218, 65);
+    padding: 10px;
+    border: 3px solid black;
+    margin: 10px;
+}
+#title{
+    text-transform: uppercase;
+}
+.post_content{
+    text-transform: capitalize;
+}
+.contact_list{
+    list-style-type:square;
+    padding-left: 15px;
+}
+.contact_list li a {
+    color: blue;
+}
